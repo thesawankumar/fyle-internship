@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.header .title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.header .subtitle {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  color: #de1313;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 2.5em;
+  color: red; /* Change this to your preferred icon color */
+  margin-bottom: 10px;
+}
+
+.number {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 1em;
+  color: #777;
+}

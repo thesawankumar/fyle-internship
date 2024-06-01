@@ -1,0 +1,27 @@
+.container-footer {
+  background-color: #f84444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  background-blend-mode: darken;
+}
+
+.logo-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-item img {
+  background-color: red;
+  margin: 20px;
+  max-width: 150px;
+  max-height: 100px;
+}

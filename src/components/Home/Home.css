@@ -1,0 +1,58 @@
+
+
+.landing-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: white;
+  min-height: 100vh;
+  background-color: white;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 1200px;
+  padding-inline: 40px;
+  margin-inline: auto;
+  gap:40px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.award-text {
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.contact-button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: darkred;
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

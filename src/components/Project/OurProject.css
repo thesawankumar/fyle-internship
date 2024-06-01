@@ -1,0 +1,39 @@
+.our-project {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.project-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  max-width: 100%;
+  border-radius: 10px;
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image scales and crops to fill the height */
+}
+
+.project-description {
+  max-width: 400px;
+  margin: 40px;
+  text-align: left;
+}
+
+.project-highlight {
+  background-color: rgb(229, 53, 53);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-highlight h4 {
+  margin: 0 0 10px 0;
+}
+
+.project-highlight p {
+  margin: 0;
+}
